@@ -1,0 +1,36 @@
+Departments
+-
+dept_no TEXT
+dept_name VARCHAR
+
+Dept_Emp
+-
+ID INTEGER PK
+emp_no INT
+dept_no TEXT
+from_date TEXT
+to_Date TEXT
+
+Dept_manager
+-
+ID INTEGER PK
+dept_no TEXT
+emp_no INT
+from_date TEXT
+to_date TEXT
+
+Employees
+-
+emp_no INT 
+birth_date TEXT
+first_name VARCHAR
+last_name VARCHAR
+gender TEXT
+hire_date TEXT
+
+Salaries
+-
+emp_no INTEGER 
+salary INTEGER
+from_date TEXT
+to_date TEXT
